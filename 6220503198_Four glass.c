@@ -44,8 +44,8 @@ int main()
             }
 
         }
+        for(d=0;d<n;d++)
+        printf("%d\n",m[d]);
 
     }
-
-
 }
