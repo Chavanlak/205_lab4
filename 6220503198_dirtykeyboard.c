@@ -1,25 +1,23 @@
 #include<stdio.h>
 #include<string.h>
 
-int mian()
+int main()
 {
     int i,a;
-    char x[200];
-
-    scanf("%s",x);
-    a =strlen(x);
+    char n[200];
+    scanf("%s",n);
+    a=strlen(n);
 
     for(i=0;i<a;i++)
     {
-        if(x[i]==x[i+1])
+        if(n[i]==n[i+1])
         {
             continue;
         }
-        else if (x[i]!=x[i+1])
+        else if (n[i]!=n[i+1])
         {
-            printf("%c",x[i]);
+            printf("%c",n[i]);
         }
-
-    }
+        }
     return 0;
 }
