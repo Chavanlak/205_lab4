@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<string>
+#include<string.h>
 
 int mian()
 {
@@ -11,6 +11,15 @@ int mian()
 
     for(i=0;i<a;i++)
     {
+        if(x[i]==x[i+1])
+        {
+            continue;
+        }
+        else if (x[i]!=x[i+1])
+        {
+            printf("%c",x[i]);
+        }
 
     }
+    return 0;
 }
