@@ -17,12 +17,9 @@ for(i=0;i<n-2;i++)
     b[i]=0;
     for(j=0;j<3;j++)
     {
-    b[i]=0;
-    for(j=0;j<3;j++)
-    {
-        b[i]+=(a[i][j]+a[i+1][j]+a[i+2][j])*c[j];
+    b[i]+=(a[i][j]+a[i+1][j]+a[i+2][j])*c[j];
     }
-    }
+}
    int max=0,min=0;
    for(i=1;i<n-2;i++)
    {
@@ -35,4 +32,5 @@ for(i=0;i<n-2;i++)
            min =i;
        }
    }
+   printf("%d %d",max+1,min+1);
 }
