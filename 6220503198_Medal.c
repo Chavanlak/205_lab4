@@ -12,5 +12,11 @@ int main()
             scanf("%d",&a[i][j]);
         }
     }
+for(i=0;i<n-2;i++)
+{
+    y[i]=0;
+    for(j=0;j<3;j++)
+    {
 
+    }
 }
