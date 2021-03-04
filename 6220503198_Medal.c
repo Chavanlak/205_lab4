@@ -32,5 +32,5 @@ for(i=0;i<n-2;i++)
            min =i;
        }
    }
-   printf("%d %d",max+1,min+1);
+   printf("%d %d",max+1,min+2);
 }
