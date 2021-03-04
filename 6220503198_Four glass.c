@@ -11,10 +11,28 @@ int main()
         {
             gets(x);
             int y[3]={1,2,3};
-            for(b=0;)
+            for(b=0;x[b]!='\0';b++)
             {
-
+                if(x[b]=='B')
+                {
+                    sum = y[1];
+                    y[1]=y[0];
+                    y[0]=sum;
+                }
+                if(x[b]=='B')
+                {
+                    sum = y[2];
+                    y[2]=y[1];
+                    y[1]=sum;
+                }
+                if(x[b]=='C')
+                {
+                    sum = y[0];
+                    y[0]=y[2];
+                    y[2]=sum;
+                }
             }
+
         }
     }
 
