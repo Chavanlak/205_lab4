@@ -23,5 +23,16 @@ for(i=0;i<n-2;i++)
         b[i]+=(a[i][j]+a[i+1][j]+a[i+2][j])*c[j];
     }
     }
-
+   int max=0,min=0;
+   for(i=1;i<n-2;i++)
+   {
+       if(b[i]>b[max])
+       {
+           max=i;
+       }
+       else if(b[i]>b[max])
+       {
+           min =i;
+       }
+   }
 }
