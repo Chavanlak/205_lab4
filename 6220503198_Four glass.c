@@ -9,7 +9,7 @@ int main()
     {
         for(a=0;a<n;a++)
         {
-            gets(x);
+            fgets(x,50,stdin);
             int y[3]={1,2,3};
             for(b=0;x[b]!='\0';b++)
             {
