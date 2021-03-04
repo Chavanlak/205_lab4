@@ -3,6 +3,7 @@ int main()
 {
     int a,b,c,d;
     int n=0,sum=0,m[100];
+    char x[50];
     scanf("%d\n",&n);
     if((n>0)&&(n<100))
     {
@@ -10,7 +11,10 @@ int main()
         {
             gets(x);
             int y[3]={1,2,3};
-            for()
+            for(b=0;)
+            {
+
+            }
         }
     }
 
